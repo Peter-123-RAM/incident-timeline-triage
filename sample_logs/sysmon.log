@@ -1,0 +1,5 @@
+2026-06-18 08:18:40 EventID=1 Image=powershell.exe CommandLine="powershell.exe -EncodedCommand SQBmACgA..."
+2026-06-18 08:18:50 EventID=1 Image=cmd.exe CommandLine="cmd.exe /c whoami"
+2026-06-18 08:19:10 EventID=1 Image=net.exe CommandLine="net user attacker /add"
+2026-06-18 08:19:30 EventID=1 Image=net.exe CommandLine="net localgroup administrators attacker /add"
+2026-06-18 09:00:00 EventID=1 Image=backup.exe CommandLine="backup.exe nightly-job"
